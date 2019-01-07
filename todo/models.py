@@ -8,5 +8,5 @@ class ToDo(models.Model):
         completed = models.BooleanField(default=False)
 
 
-        def _str_(self):
+        def __str__(self):
             return self.title
