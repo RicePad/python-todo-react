@@ -6,4 +6,4 @@ from todo.models import ToDo
 
 class ToDoViewSet(viewsets.ModelViewSet):
     queryset = ToDo.objects.all()
-    serializer_class = ToDoSerializers
+    serializer_class = ToDoSerializer
